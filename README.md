@@ -1,6 +1,6 @@
 # Board Game Recommender System 
 
-## Unsupervised personalized recommender system using collaborative filtering for board games. 
+## Supervised personalized recommender system using collaborative filtering for board games. 
 
 ### Author:
 [Marcos V Panyagua Fernandes](https://www.linkedin.com/in/marcosvprestesfernandes/)
@@ -16,3 +16,4 @@
 
 
 ## Data from [Board Game Geek](https://boardgamegeek.com/)
+![logo_data](capimages/bgg_logo.jfif)
