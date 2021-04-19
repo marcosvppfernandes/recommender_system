@@ -5,7 +5,7 @@
 ### Author:
 [Marcos V Panyagua Fernandes](https://www.linkedin.com/in/marcosvprestesfernandes/)
 
-![cover](capimg/board_game_cafe.jpg)
+![cover](capimages/board_game_cafe.jpg)
 
 ## Contents:
 * capimages`: images and a text document crediting each one of them.
