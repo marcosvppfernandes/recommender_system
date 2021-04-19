@@ -24,3 +24,19 @@
   - **reviews_summary**: It has all the information of the first dataset in a summarized way.
 - This dataset is property of BoardGameGeek and have to follow their [Terms of Use](https://boardgamegeek.com/wiki/page/XML_API_Terms_of_Use#) and it was obtained from this [kernel](https://www.kaggle.com/jvanelteren/boardgamegeek-reviews?select=bgg-15m-reviews.csv)
 
+## Business Understanding
+Recommendation Engines have been used for while, and as the time passes by being more popular even among those that are not related to the Data Science field. Besides that, with the advances of technology, they are getting more and more sophisticated, for example using hundreds of millions of rows and [deep learning](https://towardsdatascience.com/introduction-to-recommender-systems-2-deep-neural-network-based-recommendation-systems-4e4484e64746). Recommendations are part of our routine nowadays: Youtube, Amazon, Spotify/Tidal, Facebook/Twitter/Instagram. And the goal of those recommendations are pretty straightfoward: to the user (you and me) consume or not the item (videos, items to buy, artists/songs to listen to, people to follow and so on), and for the company that is a win-win situation. They either "sell" something and get data from the action or they "don't sell" something and get data and now they can improve their algorithm.
+
+### Stakeholder: Masmorra Board Games (or another small boardgames retailer)
+![Masmorra_logo](capimages/masmorra_board_games.png)
+
+The decision towards a small retailer of boardgames was made based on the question: "Who would benefit the most from an engine like this?" - The two first answers that came to mind were 1; the user, 2; stores, where those users might buy the board games from. Since board games are such a specific niche, general recommendations such as "The most popular item" or "You could have this item by tomorrow" do not work as well as in other areas. Small stores also would benefit from diminishing the gap from those general recommendations, which could improve the sales, efficiency in stock management and improve their markenting strategy.
+
+## Exploratory Data Analysis
+How the data looks like
+
+#### Long-tail problem
+A well known problem with recommendation systems ...
+
+## Modeling with SVD
+After tries with other models ...
