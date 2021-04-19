@@ -24,3 +24,17 @@
   - **reviews_summary**: It has all the information of the first dataset in a summarized way.
 - This dataset is property of BoardGameGeek and have to follow their [Terms of Use](https://boardgamegeek.com/wiki/page/XML_API_Terms_of_Use#) and it was obtained from this [kernel](https://www.kaggle.com/jvanelteren/boardgamegeek-reviews?select=bgg-15m-reviews.csv)
 
+## Business Understanding
+How the companies can get advantage from it
+### Stakeholder: Masmorra Board Games (or another small boardgames retailer)
+![Masmorra_logo](capimages/masmorra_board_games.png)
+Why small
+
+## Exploratory Data Analysis
+How the data looks like
+
+#### Long-tail problem
+A well known problem with recommendation systems ...
+
+## Modeling with SVD
+After tries with other models ...
