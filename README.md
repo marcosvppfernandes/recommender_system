@@ -48,8 +48,16 @@ A well known problem in recommendation systems is the Long Tail. It happens when
 The high number of interactions with an item can be an easy to recommend, based solely on what's popular, but that is not personalized at all.  It creates a situation of hit-or-miss prediction of what the user might like, since you are not using the user's data or preferences at any moment. Besides, using this method as a "recommender" could make the items that already are famous, more famous, and increasing the threshold for the small items to get the attention from the users. 
 Below we can see the distribuition (normal and with log to facilitate the visualization):
 
-![long_tail](capimages/destribuition_reviews_per_user_no_log.png)
+![long_tail](capimages/hist_reviews_per_game.png)
 
 
 ## Modeling with SVD
 The final choice of Singular value decomposition happen after several tries with different models, in majority variations of Memory-Based ones. Memory-based techniques use the information to create vectors and then finds who is the most similar user to the one we are trying to get recommendations for. The plus of Model-based (in our case, SVD) is that before creating those vectors they try to predict a value for each game and each user, making it more computational heavy, but more accurate.
+
+# Results
+### We developed some different approaches to the recommendation system:
+The images below show the version without any changes and one making the recommendation based on the designer - the explanation for that is that the boardgames still need some more binning around "how" the games are - type of mechanic for example. And when usually you play games from that same designer he uses some of the same mechanics used on the other games made by him.
+
+[![results_svd](capimages/results_function_svd.png)
+
+[![results_designer](capimages/results_function_designer.png)
