@@ -45,11 +45,10 @@ The data provided some valuable insight into how people tend to react to certain
 
 #### Long Tail problem
 A well known problem in recommendation systems is the Long Tail. It happens when you have a small amount of items that are really popular (Like the ones that we saw above), but the majority of the items are spread, making the visualization of this distribuition skewed to one side, forming - The Long Tail.
-The long tail can be an easy way to decide what to recommend, based solely on what's popular, but that is not personalized at all.  It creates a situation of hit-or-miss prediction of what the user might like, since you are not using the user's data or preferences at any moment. Besides, using the long tail as a "recommender" could make the items that already are famous, more famous, and increasing the threshold for the small items to get the attention from the users. 
+The high number of interactions with an item can be an easy to recommend, based solely on what's popular, but that is not personalized at all.  It creates a situation of hit-or-miss prediction of what the user might like, since you are not using the user's data or preferences at any moment. Besides, using this method as a "recommender" could make the items that already are famous, more famous, and increasing the threshold for the small items to get the attention from the users. 
 Below we can see the distribuition (normal and with log to facilitate the visualization):
 
 ![long_tail](capimages/destribuition_reviews_per_user_no_log.png)
-![long_tail_log](capimages/distribuition_reviews_per_user.png)
 
 
 ## Modeling with SVD
