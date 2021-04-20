@@ -52,18 +52,18 @@ Below we can see the distribuition (normal and with log to facilitate the visual
 
 
 ## Modeling with SVD
-  The final choice of Singular value decomposition happen after several tries with different models, in majority variations of Memory-Based ones. Memory-based techniques use the information to create vectors and then finds who is the most similar user to the one we are trying to get recommendations for. The plus of Model-based (in our case, SVD) is that before creating those vectors they try to predict a value for each game and each user, making it more computational heavy, but more accurate.
+  The final choice of Singular value decomposition happens after several tries with different models, the majority of which were variations of Memory-Based ones. Memory-based techniques use the information to create vectors and then finds who is the most similar user to the one we are trying to get recommendations for. The plus of a Model-based (in our case, SVD) is that before creating those vectors they try to predict a value for each game and each user, making it more computationaly heavy, but more accurate.
 
 # Results
 ### We developed some different approaches to the recommendation system:
-  The images below show the version without any changes and one making the recommendation based on the designer - the explanation for that is that the boardgames still need some more binning around "how" the games are - type of mechanic for example. And when usually you play games from that same designer he uses some of the same mechanics used on the other games made by him.
+  The first image below shows the version without any changes and the second one makes the recommendation based on the designer - the explanation for that is that the boardgames still need some more binning around "how" the games are - type of mechanic for example. If you like one designer (and therefore the mechanics that he usually uses), you might like other games from that same designer because they have a similar play-style.
 
 [![results_svd](capimages/results_function_svd.png)
 
 [![results_designer](capimages/results_function_designer.png)
 
-The best **RMSE** is **1.3117**!! Which is pretty good in a range from 1 to 10, providing better recommendations.
+The best **RMSE** is **1.3117**!! Which is pretty good in a range from 1 to 10 as it provides good recommendations.
 
 ## Next Steps:
-  In the future the plans are to tune the model even more, creating pipelines to scrape, treat, pre-process and keep modeling. Another important step that might be taken in the near future is to use an extra step to store the model somewhere that can handle bigger files (AWS, Azure and etc) so that can also provide a better prediction. (That was locally tested and the improvement was not notorius, but yet, positive).
-  On the deployement/business understanding side I plan to make the app more user friendly and deployable and go forward and offer small retailers or even cafes the app for free so they can use it and provide feedback. Also want to make optional filters to be all integrated, like designer and difcc
+  Future plans are to tune the model even more, creating pipelines to scrape, treat, pre-process and keep modeling. Another important step that might be taken in the near future is to use an extra step to store the model somewhere that can handle bigger files (AWS, Azure and etc) so that it can provide a better prediction. (These models were locally tested and the improvement was not statistically significant and meaningful).
+  On the deployement/business understanding side I plan to make the app more user friendly and deployable and go forward and offer small retailers or even cafes the app for free so they can use it and provide feedback. I also want to make optional filters to be all integrated, like designer and difcc
