@@ -9,8 +9,8 @@
 
 
 ## Contents:
-* **app**: The functional application with source code, images and walkthrough and the pickled model that is used on the app.
-* **capimages**: images and a text document crediting each one of them.
+* **app_rec_sys**: The functional application with source code, images and walkthrough and the pickled model that is used on the app.
+* **images**: images and a text document crediting each one of them.
 * **notebooks**: jupyter notebooks containing EDA, FSM, first approaches, walkthrough of feature engineering and more technical analysis. Also contains the gridsearch and how it was decided which parameters were the optimal one to be used on the final notebook.
 * **final_notebook**: A concise notebook with everything that was done to reach the results, mostly focusing on the modeling process.
 
