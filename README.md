@@ -59,7 +59,7 @@ Below we can see the distribuition (normal and with log to facilitate the visual
 
 [![results_svd](capimages/results_function_svd.png)
 
-[![results_designer](capimages/results_function_designer.png)
+[![results_designer](capimages/jollyfulpanda_designer.png)
 
 The best **RMSE** is **1.3117**!! Which is pretty good in a range from 1 to 10 as it provides good recommendations.
 
