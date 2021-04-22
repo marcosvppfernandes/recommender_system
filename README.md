@@ -57,15 +57,15 @@ Below we can see the distribuition (normal and with log to facilitate the visual
 ### We developed some different approaches to the recommendation system:
   The first image below shows the version done in the traditional way while the second one makes the recommendation based on the designer - the explanation for that is that the boardgames still need some more binning around "how" the games are - type of mechanic for example. If you like one designer (and therefore the mechanics that he usually uses), you might like other games from that same designer because they have a similar play-style.
 
-[![results_svd](images/results_function_svd.png)
+![results_svd](images/results_function_svd.png)
 
-[![results_designer](images/jollyfulpanda_designer.png)
+![results_designer](images/jollyfulpanda_designer.png)
 
 The best **RMSE** is **1.3117**!! Which is pretty good in a range from 1 to 10 as it provides good recommendations.
 
 ### Demonstration 
 Here is a short demo of our functioning app!
-[![demo_gif](images/demo_rec_sys.gif)
+![demo_gif](images/demo_rec_sys.gif)
 
 ## Next Steps:
   Future plans are to tune the model even more, creating pipelines to scrape, treat, pre-process and keep modeling. Another important step that might be taken in the near future is to use an extra step to store the model somewhere that can handle bigger files (AWS, Azure and etc) so that it can provide a better prediction. (These models were locally tested and the improvement was not statistically significant and meaningful).
