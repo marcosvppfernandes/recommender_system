@@ -21,7 +21,7 @@
 - Contains 3 different datasets (for our project we are going to use only the first 2):
   - **bgg_reviews**: 15.8 million rows, contains the nickname of the user, rating for a specific game, ID of that game, name of the game and written review.
   - **games**: Has information on over 19 thousand games. 56 columns, among them are fields for year published, the weight (a kind of measure of difficulty), board game designer, minumum and maximum amount of players, and the playing time.
-  - **reviews_summary**: It has all the information of the first dataset in a summarized way.
+  - **reviews_summary**: It has all the information of the first dataset in a summarized way
 - This dataset is property of BoardGameGeek and we have to follow their [Terms of Use](https://boardgamegeek.com/wiki/page/XML_API_Terms_of_Use#). It was obtained from this [kernel](https://www.kaggle.com/jvanelteren/boardgamegeek-reviews?select=bgg-15m-reviews.csv)
 
 
@@ -59,10 +59,10 @@ Below we can see the distribuition (normal and with log to facilitate the visual
 
 [![results_svd](capimages/results_function_svd.png)
 
-[![results_designer](capimages/results_function_designer.png)
+[![results_designer](capimages/jollyfulpanda_designer.png)
 
 The best **RMSE** is **1.3117**!! Which is pretty good in a range from 1 to 10 as it provides good recommendations.
 
 ## Next Steps:
   Future plans are to tune the model even more, creating pipelines to scrape, treat, pre-process and keep modeling. Another important step that might be taken in the near future is to use an extra step to store the model somewhere that can handle bigger files (AWS, Azure and etc) so that it can provide a better prediction. (These models were locally tested and the improvement was not statistically significant and meaningful).
-  On the deployement/business understanding side I plan to make the app more user friendly and deployable and go forward and offer small retailers or even cafes the app for free so they can use it and provide feedback. I also want to make optional filters to be all integrated, like designer and difcc
+  On the deployement/business understanding side I plan to make the app more user friendly and deployable and go forward and offer small retailers or even cafes the app for free so they can use it and provide feedback. I also want to make optional filters to be all integrated, like designer and dificulty/weight of the game.
