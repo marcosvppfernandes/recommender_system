@@ -9,9 +9,8 @@
 
 
 ## Contents:
-* **app**: The functional application with source code, images and walkthrough.
+* **app**: The functional application with source code, images and walkthrough and the pickled model that is used on the app.
 * **capimages**: images and a text document crediting each one of them.
-* **model_pkl**: The pickled model that is used on the app.
 * **notebooks**: jupyter notebooks containing EDA, FSM, first approaches, walkthrough of feature engineering and more technical analysis. Also contains the gridsearch and how it was decided which parameters were the optimal one to be used on the final notebook.
 * **final_notebook**: A concise notebook with everything that was done to reach the results, mostly focusing on the modeling process.
 
@@ -56,7 +55,7 @@ Below we can see the distribuition (normal and with log to facilitate the visual
 
 # Results
 ### We developed some different approaches to the recommendation system:
-  The first image below shows the version without any changes and the second one makes the recommendation based on the designer - the explanation for that is that the boardgames still need some more binning around "how" the games are - type of mechanic for example. If you like one designer (and therefore the mechanics that he usually uses), you might like other games from that same designer because they have a similar play-style.
+  The first image below shows the version done in the traditional way while the second one makes the recommendation based on the designer - the explanation for that is that the boardgames still need some more binning around "how" the games are - type of mechanic for example. If you like one designer (and therefore the mechanics that he usually uses), you might like other games from that same designer because they have a similar play-style.
 
 [![results_svd](capimages/results_function_svd.png)
 
