@@ -29,7 +29,7 @@
   Recommendation Engines have been used for a while, and as the time passes they have become more popular even among people who are not familiar with data science. Besides that, with technological, they are getting more and more sophisticated, for example using hundreds of millions of rows and [deep learning](https://towardsdatascience.com/introduction-to-recommender-systems-2-deep-neural-network-based-recommendation-systems-4e4484e64746). Recommendations are part of our routine nowadays: Youtube, Amazon, Spotify/Tidal, Facebook/Twitter/Instagram. And the goal of those recommendations is pretty straightfoward: for the user (you and me) to consume or not the item (videos, items to buy, artists/songs to listen to, people to follow and so on), and for the company that is a win-win situation. They either "sell" something and get data from the action or they "don't sell" something and still get data and now they can improve their algorithm.
 
 
-### Stakeholder: Masmorra Board Games (or another small boardgames retailer)
+### Stakeholder: [Masmorra Board Games](https://www.masmorra.com.br/) (or another small boardgames retailer)
 
 ![Masmorra_logo](images/masmorra_board_games.png)
 
