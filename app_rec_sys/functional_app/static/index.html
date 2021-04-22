@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!--
+      This is the title that appears in the browser tab.
+      Replace it with the title of your app
+    -->
+    <title>Board Games Recommender System</title>
+      <hr>
+    <link rel="stylesheet" media="screen" href="/static/bootstrap.min.css">
+    <!-- If you add custom CSS, put it after the above bootstrap link -->
+  </head>
+  <body>
+    <div class="container">
+      <!-- 
+        This top section has the gray background and large text containing the
+        name of the app
+      -->
+      <div class="jumbotron">
+        <!-- Replace with the name of your app-->
+        <h1 class="display-4">Board Games Recommender System</h1>
+      </div>
+      <!-- This section contains a photo + the form for the user to enter data-->
+      <div class="container"> 
+          <hr>
+        <div class="row">
+          <div class="col-md-4" style="text-align: center;">
+              
+            <!--
+              Replace with a photo relevant to your project (and caption if
+              applicable). It will automatically fill the same width as the
+              template version due to CSS styling.
+            -->
+            <img src="/static/boardgames.jpg" alt="boardgames" style="width: 100%;">
+            <span style="font-size: small;">Photo by
+              <a href="https://libertyonthelighterside.com/about/">
+                Liberty
+              </a>
+              on
+              <a href="https://libertyonthelighterside.com/30-brilliant-board-games-for-tweens-and-teens/">
+                Liberty on the Lighter Side
+              </a>
+            </span>
+          </div>
+          <div class="col-md-8">
+            <!--
+              Replace all labels and inputs with the relevant features for your
+              model
+              Attributes to note:
+              id: this is used on the front end to link the label to the input
+              name: this is used on the back end when you submit the form; it
+                becomes the key in the params dictionary
+              value: this is the default value of the input. not necessary but
+                helpful for speeding up demos
+
+              The <br>s between each label/input combo are a quick and easy way
+              to put each one on its own line. They aren't necessary for the
+              form to function but they help the flow without needing a lot of
+              nested <div>s to achieve the desired layout
+            -->
+            <form action="/make_prediction" method="post">
+              <label for="input-1">Put your BoardGameGeek nickname</label>
+              <input type="text" id="input-1" name="user_id" value="jollyfulpanda">
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+                
+              <!-- You shouldn't need to change the submit button -->
+              <input type="submit" class="btn btn-primary btn-lg" value="Recommend!">
+            </form>
+          </div>
+        </div>  
+      </div>
+      <!-- hr is "horizontal rule". it makes a nice classy line -->
+      <hr>
+      <!-- This section contains paragraphs of text at the bottom -->
+      <div class="container">
+        <!--
+          Replace with your content. The <p> tags are how you create new
+          paragraphs. If you just hit enter, the text will "float" up to the
+          previous line
+        -->
+        
+        <p>
+          The definition of a Board Game is pretty open, but normally the rules are clear, needs a mechanic to use during the game and some sort of definition of how someone can win in that game. We can find games that uses pieces, boards, cards, dice, coins, resources and nowadays we even have eletronics involved in board games.
+        </p>
+        <p>
+          You can also visit the site where we got our data from, where you can get more information on the recommended game: <a href="https://boardgamegeek.com/">
+                BoardGameGeek
+              </a>
+        </p>
+          <p>
+          Recommendation Systems (also known as recommendation engines) are a relatively new prediction method that uses algorithms such as Collaborative filtering (CF) and Clustering that try to provide a number N of items (not yet interacted) for a specific user based on the correlation between users and what they had interaction with. In our case we initially try to implement a CF using a dataset with over 15 million rows. 
+        </p>
+      </div>
+    </div>
+      
+  </body>
+</html>
