@@ -5,7 +5,7 @@
 ### Author:
 [Marcos V Panyagua Fernandes](https://www.linkedin.com/in/marcosvprestesfernandes/)
 
-![cover](capimages/board_game_cafe.jpg)
+![cover](images/board_game_cafe.jpg)
 
 
 ## Contents:
@@ -16,7 +16,7 @@
 
 
 ## Data from [Board Game Geek](https://boardgamegeek.com/)
-![logo_data](capimages/bgg_logo.jfif)
+![logo_data](images/bgg_logo.jfif)
 - The data was last updated in August of 2020
 - Contains 3 different datasets (for our project we are going to use only the first 2):
   - **bgg_reviews**: 15.8 million rows, contains the nickname of the user, rating for a specific game, ID of that game, name of the game and written review.
@@ -31,7 +31,7 @@
 
 ### Stakeholder: Masmorra Board Games (or another small boardgames retailer)
 
-![Masmorra_logo](capimages/masmorra_board_games.png)
+![Masmorra_logo](images/masmorra_board_games.png)
 
   The decision towards a small retailer of boardgames was made based on the question: "Who would benefit the most from an engine like this?" The first two answers that came to mind were 1: the user and 2: stores, where those users might buy the board games from. Since board games are such a specific niche, general recommendations such as "The most popular item" or "You could have this item by tomorrow" do not work as well as in other areas. Small stores also would benefit from diminishing the gap from those general recommendations, which could improve the sales, efficiency in stock management, and their markenting strategy.
 
@@ -39,7 +39,7 @@
 ## Exploratory Data Analysis
   The data provided some valuable insight into how people tend to react to certain types of games, by games made by a specific company/designer and even how the rating of the game relates to its [weight](https://boardgamegeek.com/wiki/page/Weight). Weight is a specific measure from BoardGameGeek and it takes into consideration not only the difficulty level of the game, but also how much of other skills are needed to play, how little luck is in the game, and how long it takes to setup, to learn, and to play. There is a well known bias of people rating board games better if they have a higher weight. The problem is being explored and hopefully we can offer solutions in the near future.
 
-![Reviews_per_game](capimages/most_reviewed_games.png)
+![Reviews_per_game](images/most_reviewed_games.png)
 
 
 #### Long Tail problem
@@ -47,7 +47,7 @@
 The high number of interactions with an item can be an easy to recommend, based solely on what's popular, but that is not personalized at all.  It creates a situation of hit-or-miss prediction of what the user might like, since you are not using the user's data or preferences at any moment. Besides, using this method as a "recommender" could make the items that already are famous, more famous, and increasing the threshold for the small items to get the attention from the users. 
 Below we can see the distribuition (normal and with log to facilitate the visualization):
 
-![long_tail](capimages/hist_reviews_per_game.png)
+![long_tail](images/hist_reviews_per_game.png)
 
 
 ## Modeling with SVD
@@ -57,9 +57,9 @@ Below we can see the distribuition (normal and with log to facilitate the visual
 ### We developed some different approaches to the recommendation system:
   The first image below shows the version done in the traditional way while the second one makes the recommendation based on the designer - the explanation for that is that the boardgames still need some more binning around "how" the games are - type of mechanic for example. If you like one designer (and therefore the mechanics that he usually uses), you might like other games from that same designer because they have a similar play-style.
 
-[![results_svd](capimages/results_function_svd.png)
+[![results_svd](images/results_function_svd.png)
 
-[![results_designer](capimages/jollyfulpanda_designer.png)
+[![results_designer](images/jollyfulpanda_designer.png)
 
 The best **RMSE** is **1.3117**!! Which is pretty good in a range from 1 to 10 as it provides good recommendations.
 
