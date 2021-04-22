@@ -71,7 +71,7 @@ Here is a short demo of our functioning app!
   Future plans are to tune the model even more, creating pipelines to scrape, treat, pre-process and keep modeling. Another important step that might be taken in the near future is to use an extra step to store the model somewhere that can handle bigger files (AWS, Azure and etc) so that it can provide a better prediction. (These models were locally tested and the improvement was not statistically significant and meaningful).
   On the deployement/business understanding side I plan to make the app more user friendly and deployable and go forward and offer small retailers or even cafes the app for free so they can use it and provide feedback. I also want to make optional filters to be all integrated, like designer and dificulty/weight of the game.
 ```
-├── app_rec_sys                                                                                                                                                                 
+├── app_rec_sys                 
     └──functional_app
         └──src
             └──models
@@ -79,10 +79,10 @@ Here is a short demo of our functioning app!
     ├──readme.txt
 ├── images (Contains all the images used in this repo, including the .gif of the demo)    
 ├── notebooks  
-    └──eda_capstone.ipynb                                                                                                                                                       
-├── .gitignore                                                                                                                                                              
-├── LICENSE                                                                                                                                                              
-├── README.md                                                                                                                                                              
-├── final_notebook.ipynb  
+    └──eda_capstone.ipynb
+├── .gitignore           
+├── LICENSE              
+├── README.md            
+├── final_notebook.ipynb 
     └── presentation_rec_sys.pdf
    
