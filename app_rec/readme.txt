@@ -1,1 +1,0 @@
-This is an recommendation system made by Marcos Panyagua Fernandes, more information on (https://github.com/marcosvppfernandes/recommender_system)
