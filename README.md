@@ -56,7 +56,7 @@ Below we can see the distribuition (normal and with log to facilitate the visual
 
 # Results
 ### We developed some different approaches to the recommendation system:
-  The first image below shows the version without any changes and the second one makes the recommendation based on the designer - the explanation for that is that the boardgames still need some more binning around "how" the games are - type of mechanic for example. If you like one designer (and therefore the mechanics that he usually uses), you might like other games from that same designer because they have a similar play-style.
+  The first image below shows the version done in the traditional way while the second one makes the recommendation based on the designer - the explanation for that is that the boardgames still need some more binning around "how" the games are - type of mechanic for example. If you like one designer (and therefore the mechanics that he usually uses), you might like other games from that same designer because they have a similar play-style.
 
 [![results_svd](capimages/results_function_svd.png)
 
