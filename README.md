@@ -64,7 +64,7 @@ Below we can see the distribuition (normal and with log to facilitate the visual
 The best **RMSE** is **1.3117**!! Which is pretty good in a range from 1 to 10 as it provides good recommendations.
 
 ### Demonstration 
-Here is a short demo of our functioning app!
+Here is a short demo of our functioning app:
 ![demo_gif](images/demo_rec_sys.gif)
 
 ## Next Steps:
